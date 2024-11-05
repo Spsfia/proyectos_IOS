@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		245E50422CC589F60020F0AF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245E50412CC589F60020F0AF /* SecondViewController.m */; };
+		24A4B1182CBB361E00F58649 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A4B1172CBB361E00F58649 /* AppDelegate.m */; };
+		24A4B11B2CBB361E00F58649 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A4B11A2CBB361E00F58649 /* SceneDelegate.m */; };
+		24A4B11E2CBB361E00F58649 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A4B11D2CBB361E00F58649 /* FirstViewController.m */; };
+		24A4B1212CBB361E00F58649 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 24A4B1202CBB361E00F58649 /* Base */; };
+		24A4B1232CBB361F00F58649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24A4B1222CBB361F00F58649 /* Assets.xcassets */; };
+		24A4B1262CBB361F00F58649 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 24A4B1252CBB361F00F58649 /* Base */; };
+		24A4B1292CBB361F00F58649 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A4B1282CBB361F00F58649 /* main.m */; };
+		24A4B1332CBB361F00F58649 /* appJuegoCadenasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A4B1322CBB361F00F58649 /* appJuegoCadenasTests.m */; };
+		24A4B13D2CBB361F00F58649 /* appJuegoCadenasUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A4B13C2CBB361F00F58649 /* appJuegoCadenasUITests.m */; };
+		24A4B13F2CBB361F00F58649 /* appJuegoCadenasUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A4B13E2CBB361F00F58649 /* appJuegoCadenasUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24A4B12F2CBB361F00F58649 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24A4B10B2CBB361E00F58649 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24A4B1122CBB361E00F58649;
+			remoteInfo = appJuegoCadenas;
+		};
+		24A4B1392CBB361F00F58649 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24A4B10B2CBB361E00F58649 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24A4B1122CBB361E00F58649;
+			remoteInfo = appJuegoCadenas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		245E50402CC589F60020F0AF /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		245E50412CC589F60020F0AF /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		24A4B1132CBB361E00F58649 /* appJuegoCadenas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appJuegoCadenas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24A4B1162CBB361E00F58649 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		24A4B1172CBB361E00F58649 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		24A4B1192CBB361E00F58649 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		24A4B11A2CBB361E00F58649 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		24A4B11C2CBB361E00F58649 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		24A4B11D2CBB361E00F58649 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		24A4B1202CBB361E00F58649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24A4B1222CBB361F00F58649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24A4B1252CBB361F00F58649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24A4B1272CBB361F00F58649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24A4B1282CBB361F00F58649 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24A4B12E2CBB361F00F58649 /* appJuegoCadenasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appJuegoCadenasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24A4B1322CBB361F00F58649 /* appJuegoCadenasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appJuegoCadenasTests.m; sourceTree = "<group>"; };
+		24A4B1382CBB361F00F58649 /* appJuegoCadenasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appJuegoCadenasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24A4B13C2CBB361F00F58649 /* appJuegoCadenasUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appJuegoCadenasUITests.m; sourceTree = "<group>"; };
+		24A4B13E2CBB361F00F58649 /* appJuegoCadenasUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appJuegoCadenasUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24A4B1102CBB361E00F58649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24A4B12B2CBB361F00F58649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24A4B1352CBB361F00F58649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24A4B10A2CBB361E00F58649 = {
+			isa = PBXGroup;
+			children = (
+				24A4B1152CBB361E00F58649 /* appJuegoCadenas */,
+				24A4B1312CBB361F00F58649 /* appJuegoCadenasTests */,
+				24A4B13B2CBB361F00F58649 /* appJuegoCadenasUITests */,
+				24A4B1142CBB361E00F58649 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24A4B1142CBB361E00F58649 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24A4B1132CBB361E00F58649 /* appJuegoCadenas.app */,
+				24A4B12E2CBB361F00F58649 /* appJuegoCadenasTests.xctest */,
+				24A4B1382CBB361F00F58649 /* appJuegoCadenasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24A4B1152CBB361E00F58649 /* appJuegoCadenas */ = {
+			isa = PBXGroup;
+			children = (
+				24A4B1162CBB361E00F58649 /* AppDelegate.h */,
+				24A4B1172CBB361E00F58649 /* AppDelegate.m */,
+				24A4B1192CBB361E00F58649 /* SceneDelegate.h */,
+				24A4B11A2CBB361E00F58649 /* SceneDelegate.m */,
+				24A4B11C2CBB361E00F58649 /* FirstViewController.h */,
+				245E50402CC589F60020F0AF /* SecondViewController.h */,
+				245E50412CC589F60020F0AF /* SecondViewController.m */,
+				24A4B11D2CBB361E00F58649 /* FirstViewController.m */,
+				24A4B11F2CBB361E00F58649 /* Main.storyboard */,
+				24A4B1222CBB361F00F58649 /* Assets.xcassets */,
+				24A4B1242CBB361F00F58649 /* LaunchScreen.storyboard */,
+				24A4B1272CBB361F00F58649 /* Info.plist */,
+				24A4B1282CBB361F00F58649 /* main.m */,
+			);
+			path = appJuegoCadenas;
+			sourceTree = "<group>";
+		};
+		24A4B1312CBB361F00F58649 /* appJuegoCadenasTests */ = {
+			isa = PBXGroup;
+			children = (
+				24A4B1322CBB361F00F58649 /* appJuegoCadenasTests.m */,
+			);
+			path = appJuegoCadenasTests;
+			sourceTree = "<group>";
+		};
+		24A4B13B2CBB361F00F58649 /* appJuegoCadenasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24A4B13C2CBB361F00F58649 /* appJuegoCadenasUITests.m */,
+				24A4B13E2CBB361F00F58649 /* appJuegoCadenasUITestsLaunchTests.m */,
+			);
+			path = appJuegoCadenasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24A4B1122CBB361E00F58649 /* appJuegoCadenas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24A4B1422CBB361F00F58649 /* Build configuration list for PBXNativeTarget "appJuegoCadenas" */;
+			buildPhases = (
+				24A4B10F2CBB361E00F58649 /* Sources */,
+				24A4B1102CBB361E00F58649 /* Frameworks */,
+				24A4B1112CBB361E00F58649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = appJuegoCadenas;
+			productName = appJuegoCadenas;
+			productReference = 24A4B1132CBB361E00F58649 /* appJuegoCadenas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24A4B12D2CBB361F00F58649 /* appJuegoCadenasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24A4B1452CBB361F00F58649 /* Build configuration list for PBXNativeTarget "appJuegoCadenasTests" */;
+			buildPhases = (
+				24A4B12A2CBB361F00F58649 /* Sources */,
+				24A4B12B2CBB361F00F58649 /* Frameworks */,
+				24A4B12C2CBB361F00F58649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24A4B1302CBB361F00F58649 /* PBXTargetDependency */,
+			);
+			name = appJuegoCadenasTests;
+			productName = appJuegoCadenasTests;
+			productReference = 24A4B12E2CBB361F00F58649 /* appJuegoCadenasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24A4B1372CBB361F00F58649 /* appJuegoCadenasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24A4B1482CBB361F00F58649 /* Build configuration list for PBXNativeTarget "appJuegoCadenasUITests" */;
+			buildPhases = (
+				24A4B1342CBB361F00F58649 /* Sources */,
+				24A4B1352CBB361F00F58649 /* Frameworks */,
+				24A4B1362CBB361F00F58649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24A4B13A2CBB361F00F58649 /* PBXTargetDependency */,
+			);
+			name = appJuegoCadenasUITests;
+			productName = appJuegoCadenasUITests;
+			productReference = 24A4B1382CBB361F00F58649 /* appJuegoCadenasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24A4B10B2CBB361E00F58649 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					24A4B1122CBB361E00F58649 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					24A4B12D2CBB361F00F58649 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 24A4B1122CBB361E00F58649;
+					};
+					24A4B1372CBB361F00F58649 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 24A4B1122CBB361E00F58649;
+					};
+				};
+			};
+			buildConfigurationList = 24A4B10E2CBB361E00F58649 /* Build configuration list for PBXProject "appJuegoCadenas" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24A4B10A2CBB361E00F58649;
+			productRefGroup = 24A4B1142CBB361E00F58649 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24A4B1122CBB361E00F58649 /* appJuegoCadenas */,
+				24A4B12D2CBB361F00F58649 /* appJuegoCadenasTests */,
+				24A4B1372CBB361F00F58649 /* appJuegoCadenasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24A4B1112CBB361E00F58649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24A4B1232CBB361F00F58649 /* Assets.xcassets in Resources */,
+				24A4B1262CBB361F00F58649 /* Base in Resources */,
+				24A4B1212CBB361E00F58649 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24A4B12C2CBB361F00F58649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24A4B1362CBB361F00F58649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24A4B10F2CBB361E00F58649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				245E50422CC589F60020F0AF /* SecondViewController.m in Sources */,
+				24A4B11E2CBB361E00F58649 /* FirstViewController.m in Sources */,
+				24A4B1182CBB361E00F58649 /* AppDelegate.m in Sources */,
+				24A4B1292CBB361F00F58649 /* main.m in Sources */,
+				24A4B11B2CBB361E00F58649 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24A4B12A2CBB361F00F58649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24A4B1332CBB361F00F58649 /* appJuegoCadenasTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24A4B1342CBB361F00F58649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24A4B13D2CBB361F00F58649 /* appJuegoCadenasUITests.m in Sources */,
+				24A4B13F2CBB361F00F58649 /* appJuegoCadenasUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24A4B1302CBB361F00F58649 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24A4B1122CBB361E00F58649 /* appJuegoCadenas */;
+			targetProxy = 24A4B12F2CBB361F00F58649 /* PBXContainerItemProxy */;
+		};
+		24A4B13A2CBB361F00F58649 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24A4B1122CBB361E00F58649 /* appJuegoCadenas */;
+			targetProxy = 24A4B1392CBB361F00F58649 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24A4B11F2CBB361E00F58649 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24A4B1202CBB361E00F58649 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24A4B1242CBB361F00F58649 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24A4B1252CBB361F00F58649 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24A4B1402CBB361F00F58649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24A4B1412CBB361F00F58649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24A4B1432CBB361F00F58649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Y6W3Q4CN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = appJuegoCadenas/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Castro.appJuegoCadenas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24A4B1442CBB361F00F58649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Y6W3Q4CN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = appJuegoCadenas/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Castro.appJuegoCadenas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24A4B1462CBB361F00F58649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Y6W3Q4CN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Castro.appJuegoCadenasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appJuegoCadenas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/appJuegoCadenas";
+			};
+			name = Debug;
+		};
+		24A4B1472CBB361F00F58649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Y6W3Q4CN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Castro.appJuegoCadenasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appJuegoCadenas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/appJuegoCadenas";
+			};
+			name = Release;
+		};
+		24A4B1492CBB361F00F58649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Y6W3Q4CN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Castro.appJuegoCadenasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = appJuegoCadenas;
+			};
+			name = Debug;
+		};
+		24A4B14A2CBB361F00F58649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Y6W3Q4CN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Castro.appJuegoCadenasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = appJuegoCadenas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24A4B10E2CBB361E00F58649 /* Build configuration list for PBXProject "appJuegoCadenas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24A4B1402CBB361F00F58649 /* Debug */,
+				24A4B1412CBB361F00F58649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24A4B1422CBB361F00F58649 /* Build configuration list for PBXNativeTarget "appJuegoCadenas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24A4B1432CBB361F00F58649 /* Debug */,
+				24A4B1442CBB361F00F58649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24A4B1452CBB361F00F58649 /* Build configuration list for PBXNativeTarget "appJuegoCadenasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24A4B1462CBB361F00F58649 /* Debug */,
+				24A4B1472CBB361F00F58649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24A4B1482CBB361F00F58649 /* Build configuration list for PBXNativeTarget "appJuegoCadenasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24A4B1492CBB361F00F58649 /* Debug */,
+				24A4B14A2CBB361F00F58649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24A4B10B2CBB361E00F58649 /* Project object */;
+}
