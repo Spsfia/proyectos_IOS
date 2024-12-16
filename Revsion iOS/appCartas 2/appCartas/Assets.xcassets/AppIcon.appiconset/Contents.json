@@ -1,0 +1,14 @@
+{
+  "images" : [
+    {
+      "filename" : "42418892-blackjack-cartas-de-póquer-línea-icono-del-arte-de-aplicaciones-y-sitios-web.jpg",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		249FE6A22CA9DE0A000B026B /* CalculadoraMat.m in Sources */ = {isa = PBXBuildFile; fileRef = 249FE6A12CA9DE0A000B026B /* CalculadoraMat.m */; };
+		249FE6A52CA9E199000B026B /* Matematicas.m in Sources */ = {isa = PBXBuildFile; fileRef = 249FE6A42CA9E199000B026B /* Matematicas.m */; };
+		24ACCB782CA9D7C40088B5B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ACCB772CA9D7C40088B5B3 /* AppDelegate.m */; };
+		24ACCB7A2CA9D7C50088B5B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24ACCB792CA9D7C50088B5B3 /* Assets.xcassets */; };
+		24ACCB7D2CA9D7C50088B5B3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 24ACCB7C2CA9D7C50088B5B3 /* Base */; };
+		24ACCB7F2CA9D7C50088B5B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ACCB7E2CA9D7C50088B5B3 /* main.m */; };
+		24ACCB8A2CA9D7C50088B5B3 /* appSuperCALCULATORTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ACCB892CA9D7C50088B5B3 /* appSuperCALCULATORTests.m */; };
+		24ACCB942CA9D7C50088B5B3 /* appSuperCALCULATORUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ACCB932CA9D7C50088B5B3 /* appSuperCALCULATORUITests.m */; };
+		24ACCB962CA9D7C50088B5B3 /* appSuperCALCULATORUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ACCB952CA9D7C50088B5B3 /* appSuperCALCULATORUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24ACCB862CA9D7C50088B5B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24ACCB6B2CA9D7C40088B5B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24ACCB722CA9D7C40088B5B3;
+			remoteInfo = appSuperCALCULATOR;
+		};
+		24ACCB902CA9D7C50088B5B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24ACCB6B2CA9D7C40088B5B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24ACCB722CA9D7C40088B5B3;
+			remoteInfo = appSuperCALCULATOR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		249FE6A02CA9DE0A000B026B /* CalculadoraMat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculadoraMat.h; sourceTree = "<group>"; };
+		249FE6A12CA9DE0A000B026B /* CalculadoraMat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculadoraMat.m; sourceTree = "<group>"; };
+		249FE6A32CA9E199000B026B /* Matematicas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Matematicas.h; sourceTree = "<group>"; };
+		249FE6A42CA9E199000B026B /* Matematicas.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Matematicas.m; sourceTree = "<group>"; };
+		24ACCB732CA9D7C40088B5B3 /* appSuperCALCULATOR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appSuperCALCULATOR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24ACCB762CA9D7C40088B5B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		24ACCB772CA9D7C40088B5B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		24ACCB792CA9D7C50088B5B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24ACCB7C2CA9D7C50088B5B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		24ACCB7E2CA9D7C50088B5B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24ACCB802CA9D7C50088B5B3 /* appSuperCALCULATOR.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = appSuperCALCULATOR.entitlements; sourceTree = "<group>"; };
+		24ACCB852CA9D7C50088B5B3 /* appSuperCALCULATORTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appSuperCALCULATORTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24ACCB892CA9D7C50088B5B3 /* appSuperCALCULATORTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appSuperCALCULATORTests.m; sourceTree = "<group>"; };
+		24ACCB8F2CA9D7C50088B5B3 /* appSuperCALCULATORUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appSuperCALCULATORUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24ACCB932CA9D7C50088B5B3 /* appSuperCALCULATORUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appSuperCALCULATORUITests.m; sourceTree = "<group>"; };
+		24ACCB952CA9D7C50088B5B3 /* appSuperCALCULATORUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appSuperCALCULATORUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24ACCB702CA9D7C40088B5B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24ACCB822CA9D7C50088B5B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24ACCB8C2CA9D7C50088B5B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24ACCB6A2CA9D7C40088B5B3 = {
+			isa = PBXGroup;
+			children = (
+				24ACCB752CA9D7C40088B5B3 /* appSuperCALCULATOR */,
+				24ACCB882CA9D7C50088B5B3 /* appSuperCALCULATORTests */,
+				24ACCB922CA9D7C50088B5B3 /* appSuperCALCULATORUITests */,
+				24ACCB742CA9D7C40088B5B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24ACCB742CA9D7C40088B5B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24ACCB732CA9D7C40088B5B3 /* appSuperCALCULATOR.app */,
+				24ACCB852CA9D7C50088B5B3 /* appSuperCALCULATORTests.xctest */,
+				24ACCB8F2CA9D7C50088B5B3 /* appSuperCALCULATORUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24ACCB752CA9D7C40088B5B3 /* appSuperCALCULATOR */ = {
+			isa = PBXGroup;
+			children = (
+				24ACCB762CA9D7C40088B5B3 /* AppDelegate.h */,
+				24ACCB772CA9D7C40088B5B3 /* AppDelegate.m */,
+				24ACCB792CA9D7C50088B5B3 /* Assets.xcassets */,
+				24ACCB7B2CA9D7C50088B5B3 /* MainMenu.xib */,
+				249FE6A32CA9E199000B026B /* Matematicas.h */,
+				249FE6A42CA9E199000B026B /* Matematicas.m */,
+				249FE6A02CA9DE0A000B026B /* CalculadoraMat.h */,
+				249FE6A12CA9DE0A000B026B /* CalculadoraMat.m */,
+				24ACCB7E2CA9D7C50088B5B3 /* main.m */,
+				24ACCB802CA9D7C50088B5B3 /* appSuperCALCULATOR.entitlements */,
+			);
+			path = appSuperCALCULATOR;
+			sourceTree = "<group>";
+		};
+		24ACCB882CA9D7C50088B5B3 /* appSuperCALCULATORTests */ = {
+			isa = PBXGroup;
+			children = (
+				24ACCB892CA9D7C50088B5B3 /* appSuperCALCULATORTests.m */,
+			);
+			path = appSuperCALCULATORTests;
+			sourceTree = "<group>";
+		};
+		24ACCB922CA9D7C50088B5B3 /* appSuperCALCULATORUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24ACCB932CA9D7C50088B5B3 /* appSuperCALCULATORUITests.m */,
+				24ACCB952CA9D7C50088B5B3 /* appSuperCALCULATORUITestsLaunchTests.m */,
+			);
+			path = appSuperCALCULATORUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24ACCB722CA9D7C40088B5B3 /* appSuperCALCULATOR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24ACCB992CA9D7C50088B5B3 /* Build configuration list for PBXNativeTarget "appSuperCALCULATOR" */;
+			buildPhases = (
+				24ACCB6F2CA9D7C40088B5B3 /* Sources */,
+				24ACCB702CA9D7C40088B5B3 /* Frameworks */,
+				24ACCB712CA9D7C40088B5B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = appSuperCALCULATOR;
+			productName = appSuperCALCULATOR;
+			productReference = 24ACCB732CA9D7C40088B5B3 /* appSuperCALCULATOR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24ACCB842CA9D7C50088B5B3 /* appSuperCALCULATORTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24ACCB9C2CA9D7C50088B5B3 /* Build configuration list for PBXNativeTarget "appSuperCALCULATORTests" */;
+			buildPhases = (
+				24ACCB812CA9D7C50088B5B3 /* Sources */,
+				24ACCB822CA9D7C50088B5B3 /* Frameworks */,
+				24ACCB832CA9D7C50088B5B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24ACCB872CA9D7C50088B5B3 /* PBXTargetDependency */,
+			);
+			name = appSuperCALCULATORTests;
+			productName = appSuperCALCULATORTests;
+			productReference = 24ACCB852CA9D7C50088B5B3 /* appSuperCALCULATORTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24ACCB8E2CA9D7C50088B5B3 /* appSuperCALCULATORUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24ACCB9F2CA9D7C50088B5B3 /* Build configuration list for PBXNativeTarget "appSuperCALCULATORUITests" */;
+			buildPhases = (
+				24ACCB8B2CA9D7C50088B5B3 /* Sources */,
+				24ACCB8C2CA9D7C50088B5B3 /* Frameworks */,
+				24ACCB8D2CA9D7C50088B5B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24ACCB912CA9D7C50088B5B3 /* PBXTargetDependency */,
+			);
+			name = appSuperCALCULATORUITests;
+			productName = appSuperCALCULATORUITests;
+			productReference = 24ACCB8F2CA9D7C50088B5B3 /* appSuperCALCULATORUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24ACCB6B2CA9D7C40088B5B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					24ACCB722CA9D7C40088B5B3 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					24ACCB842CA9D7C50088B5B3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 24ACCB722CA9D7C40088B5B3;
+					};
+					24ACCB8E2CA9D7C50088B5B3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 24ACCB722CA9D7C40088B5B3;
+					};
+				};
+			};
+			buildConfigurationList = 24ACCB6E2CA9D7C40088B5B3 /* Build configuration list for PBXProject "appSuperCALCULATOR" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24ACCB6A2CA9D7C40088B5B3;
+			productRefGroup = 24ACCB742CA9D7C40088B5B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24ACCB722CA9D7C40088B5B3 /* appSuperCALCULATOR */,
+				24ACCB842CA9D7C50088B5B3 /* appSuperCALCULATORTests */,
+				24ACCB8E2CA9D7C50088B5B3 /* appSuperCALCULATORUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24ACCB712CA9D7C40088B5B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24ACCB7A2CA9D7C50088B5B3 /* Assets.xcassets in Resources */,
+				24ACCB7D2CA9D7C50088B5B3 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24ACCB832CA9D7C50088B5B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24ACCB8D2CA9D7C50088B5B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24ACCB6F2CA9D7C40088B5B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24ACCB7F2CA9D7C50088B5B3 /* main.m in Sources */,
+				249FE6A52CA9E199000B026B /* Matematicas.m in Sources */,
+				24ACCB782CA9D7C40088B5B3 /* AppDelegate.m in Sources */,
+				249FE6A22CA9DE0A000B026B /* CalculadoraMat.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24ACCB812CA9D7C50088B5B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24ACCB8A2CA9D7C50088B5B3 /* appSuperCALCULATORTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24ACCB8B2CA9D7C50088B5B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24ACCB962CA9D7C50088B5B3 /* appSuperCALCULATORUITestsLaunchTests.m in Sources */,
+				24ACCB942CA9D7C50088B5B3 /* appSuperCALCULATORUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24ACCB872CA9D7C50088B5B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24ACCB722CA9D7C40088B5B3 /* appSuperCALCULATOR */;
+			targetProxy = 24ACCB862CA9D7C50088B5B3 /* PBXContainerItemProxy */;
+		};
+		24ACCB912CA9D7C50088B5B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24ACCB722CA9D7C40088B5B3 /* appSuperCALCULATOR */;
+			targetProxy = 24ACCB902CA9D7C50088B5B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24ACCB7B2CA9D7C50088B5B3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24ACCB7C2CA9D7C50088B5B3 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24ACCB972CA9D7C50088B5B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		24ACCB982CA9D7C50088B5B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		24ACCB9A2CA9D7C50088B5B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = appSuperCALCULATOR/appSuperCALCULATOR.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Y6W3Q4CN4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Castro.appSuperCALCULATOR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		24ACCB9B2CA9D7C50088B5B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = appSuperCALCULATOR/appSuperCALCULATOR.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Y6W3Q4CN4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Castro.appSuperCALCULATOR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		24ACCB9D2CA9D7C50088B5B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Y6W3Q4CN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Castro.appSuperCALCULATORTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appSuperCALCULATOR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/appSuperCALCULATOR";
+			};
+			name = Debug;
+		};
+		24ACCB9E2CA9D7C50088B5B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Y6W3Q4CN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Castro.appSuperCALCULATORTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appSuperCALCULATOR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/appSuperCALCULATOR";
+			};
+			name = Release;
+		};
+		24ACCBA02CA9D7C50088B5B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Y6W3Q4CN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Castro.appSuperCALCULATORUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = appSuperCALCULATOR;
+			};
+			name = Debug;
+		};
+		24ACCBA12CA9D7C50088B5B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Y6W3Q4CN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Castro.appSuperCALCULATORUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = appSuperCALCULATOR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24ACCB6E2CA9D7C40088B5B3 /* Build configuration list for PBXProject "appSuperCALCULATOR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24ACCB972CA9D7C50088B5B3 /* Debug */,
+				24ACCB982CA9D7C50088B5B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24ACCB992CA9D7C50088B5B3 /* Build configuration list for PBXNativeTarget "appSuperCALCULATOR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24ACCB9A2CA9D7C50088B5B3 /* Debug */,
+				24ACCB9B2CA9D7C50088B5B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24ACCB9C2CA9D7C50088B5B3 /* Build configuration list for PBXNativeTarget "appSuperCALCULATORTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24ACCB9D2CA9D7C50088B5B3 /* Debug */,
+				24ACCB9E2CA9D7C50088B5B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24ACCB9F2CA9D7C50088B5B3 /* Build configuration list for PBXNativeTarget "appSuperCALCULATORUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24ACCBA02CA9D7C50088B5B3 /* Debug */,
+				24ACCBA12CA9D7C50088B5B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24ACCB6B2CA9D7C40088B5B3 /* Project object */;
+}

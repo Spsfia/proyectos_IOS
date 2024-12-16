@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		245E50342CC2ACD20020F0AF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245E50332CC2ACD20020F0AF /* SecondViewController.m */; };
+		24AF216C2CBC354D009A1B6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF216B2CBC354D009A1B6F /* AppDelegate.m */; };
+		24AF216F2CBC354D009A1B6F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF216E2CBC354D009A1B6F /* SceneDelegate.m */; };
+		24AF21722CBC354D009A1B6F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF21712CBC354D009A1B6F /* FirstViewController.m */; };
+		24AF21752CBC354D009A1B6F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 24AF21742CBC354D009A1B6F /* Base */; };
+		24AF21772CBC354E009A1B6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24AF21762CBC354E009A1B6F /* Assets.xcassets */; };
+		24AF217A2CBC354E009A1B6F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 24AF21792CBC354E009A1B6F /* Base */; };
+		24AF217D2CBC354E009A1B6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF217C2CBC354E009A1B6F /* main.m */; };
+		24AF21872CBC354E009A1B6F /* appCalculadoraFraccionYRomanoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF21862CBC354E009A1B6F /* appCalculadoraFraccionYRomanoTests.m */; };
+		24AF21912CBC354E009A1B6F /* appCalculadoraFraccionYRomanoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF21902CBC354E009A1B6F /* appCalculadoraFraccionYRomanoUITests.m */; };
+		24AF21932CBC354E009A1B6F /* appCalculadoraFraccionYRomanoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF21922CBC354E009A1B6F /* appCalculadoraFraccionYRomanoUITestsLaunchTests.m */; };
+		24AF21A12CBC4419009A1B6F /* Racionales.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF21A02CBC4419009A1B6F /* Racionales.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24AF21832CBC354E009A1B6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24AF215F2CBC354D009A1B6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24AF21662CBC354D009A1B6F;
+			remoteInfo = appCalculadoraFraccionYRomano;
+		};
+		24AF218D2CBC354E009A1B6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24AF215F2CBC354D009A1B6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24AF21662CBC354D009A1B6F;
+			remoteInfo = appCalculadoraFraccionYRomano;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		245E50322CC2ACD20020F0AF /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		245E50332CC2ACD20020F0AF /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		24AF21672CBC354D009A1B6F /* appCalculadoraFraccionYRomano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appCalculadoraFraccionYRomano.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24AF216A2CBC354D009A1B6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		24AF216B2CBC354D009A1B6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		24AF216D2CBC354D009A1B6F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		24AF216E2CBC354D009A1B6F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		24AF21702CBC354D009A1B6F /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		24AF21712CBC354D009A1B6F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		24AF21742CBC354D009A1B6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24AF21762CBC354E009A1B6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24AF21792CBC354E009A1B6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24AF217B2CBC354E009A1B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24AF217C2CBC354E009A1B6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24AF21822CBC354E009A1B6F /* appCalculadoraFraccionYRomanoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appCalculadoraFraccionYRomanoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24AF21862CBC354E009A1B6F /* appCalculadoraFraccionYRomanoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appCalculadoraFraccionYRomanoTests.m; sourceTree = "<group>"; };
+		24AF218C2CBC354E009A1B6F /* appCalculadoraFraccionYRomanoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appCalculadoraFraccionYRomanoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24AF21902CBC354E009A1B6F /* appCalculadoraFraccionYRomanoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appCalculadoraFraccionYRomanoUITests.m; sourceTree = "<group>"; };
+		24AF21922CBC354E009A1B6F /* appCalculadoraFraccionYRomanoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appCalculadoraFraccionYRomanoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		24AF219F2CBC4419009A1B6F /* Racionales.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Racionales.h; sourceTree = "<group>"; };
+		24AF21A02CBC4419009A1B6F /* Racionales.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Racionales.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24AF21642CBC354D009A1B6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24AF217F2CBC354E009A1B6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24AF21892CBC354E009A1B6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24AF215E2CBC354D009A1B6F = {
+			isa = PBXGroup;
+			children = (
+				24AF21692CBC354D009A1B6F /* appCalculadoraFraccionYRomano */,
+				24AF21852CBC354E009A1B6F /* appCalculadoraFraccionYRomanoTests */,
+				24AF218F2CBC354E009A1B6F /* appCalculadoraFraccionYRomanoUITests */,
+				24AF21682CBC354D009A1B6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24AF21682CBC354D009A1B6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24AF21672CBC354D009A1B6F /* appCalculadoraFraccionYRomano.app */,
+				24AF21822CBC354E009A1B6F /* appCalculadoraFraccionYRomanoTests.xctest */,
+				24AF218C2CBC354E009A1B6F /* appCalculadoraFraccionYRomanoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24AF21692CBC354D009A1B6F /* appCalculadoraFraccionYRomano */ = {
+			isa = PBXGroup;
+			children = (
+				24AF216A2CBC354D009A1B6F /* AppDelegate.h */,
+				24AF216B2CBC354D009A1B6F /* AppDelegate.m */,
+				24AF216D2CBC354D009A1B6F /* SceneDelegate.h */,
+				24AF216E2CBC354D009A1B6F /* SceneDelegate.m */,
+				24AF21702CBC354D009A1B6F /* FirstViewController.h */,
+				24AF21712CBC354D009A1B6F /* FirstViewController.m */,
+				245E50322CC2ACD20020F0AF /* SecondViewController.h */,
+				245E50332CC2ACD20020F0AF /* SecondViewController.m */,
+				24AF21732CBC354D009A1B6F /* Main.storyboard */,
+				24AF219F2CBC4419009A1B6F /* Racionales.h */,
+				24AF21A02CBC4419009A1B6F /* Racionales.m */,
+				24AF21762CBC354E009A1B6F /* Assets.xcassets */,
+				24AF21782CBC354E009A1B6F /* LaunchScreen.storyboard */,
+				24AF217B2CBC354E009A1B6F /* Info.plist */,
+				24AF217C2CBC354E009A1B6F /* main.m */,
+			);
+			path = appCalculadoraFraccionYRomano;
+			sourceTree = "<group>";
+		};
+		24AF21852CBC354E009A1B6F /* appCalculadoraFraccionYRomanoTests */ = {
+			isa = PBXGroup;
+			children = (
+				24AF21862CBC354E009A1B6F /* appCalculadoraFraccionYRomanoTests.m */,
+			);
+			path = appCalculadoraFraccionYRomanoTests;
+			sourceTree = "<group>";
+		};
+		24AF218F2CBC354E009A1B6F /* appCalculadoraFraccionYRomanoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24AF21902CBC354E009A1B6F /* appCalculadoraFraccionYRomanoUITests.m */,
+				24AF21922CBC354E009A1B6F /* appCalculadoraFraccionYRomanoUITestsLaunchTests.m */,
+			);
+			path = appCalculadoraFraccionYRomanoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24AF21662CBC354D009A1B6F /* appCalculadoraFraccionYRomano */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24AF21962CBC354E009A1B6F /* Build configuration list for PBXNativeTarget "appCalculadoraFraccionYRomano" */;
+			buildPhases = (
+				24AF21632CBC354D009A1B6F /* Sources */,
+				24AF21642CBC354D009A1B6F /* Frameworks */,
+				24AF21652CBC354D009A1B6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = appCalculadoraFraccionYRomano;
+			productName = appCalculadoraFraccionYRomano;
+			productReference = 24AF21672CBC354D009A1B6F /* appCalculadoraFraccionYRomano.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24AF21812CBC354E009A1B6F /* appCalculadoraFraccionYRomanoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24AF21992CBC354E009A1B6F /* Build configuration list for PBXNativeTarget "appCalculadoraFraccionYRomanoTests" */;
+			buildPhases = (
+				24AF217E2CBC354E009A1B6F /* Sources */,
+				24AF217F2CBC354E009A1B6F /* Frameworks */,
+				24AF21802CBC354E009A1B6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24AF21842CBC354E009A1B6F /* PBXTargetDependency */,
+			);
+			name = appCalculadoraFraccionYRomanoTests;
+			productName = appCalculadoraFraccionYRomanoTests;
+			productReference = 24AF21822CBC354E009A1B6F /* appCalculadoraFraccionYRomanoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24AF218B2CBC354E009A1B6F /* appCalculadoraFraccionYRomanoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24AF219C2CBC354E009A1B6F /* Build configuration list for PBXNativeTarget "appCalculadoraFraccionYRomanoUITests" */;
+			buildPhases = (
+				24AF21882CBC354E009A1B6F /* Sources */,
+				24AF21892CBC354E009A1B6F /* Frameworks */,
+				24AF218A2CBC354E009A1B6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24AF218E2CBC354E009A1B6F /* PBXTargetDependency */,
+			);
+			name = appCalculadoraFraccionYRomanoUITests;
+			productName = appCalculadoraFraccionYRomanoUITests;
+			productReference = 24AF218C2CBC354E009A1B6F /* appCalculadoraFraccionYRomanoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24AF215F2CBC354D009A1B6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					24AF21662CBC354D009A1B6F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					24AF21812CBC354E009A1B6F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 24AF21662CBC354D009A1B6F;
+					};
+					24AF218B2CBC354E009A1B6F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 24AF21662CBC354D009A1B6F;
+					};
+				};
+			};
+			buildConfigurationList = 24AF21622CBC354D009A1B6F /* Build configuration list for PBXProject "appCalculadoraFraccionYRomano" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24AF215E2CBC354D009A1B6F;
+			productRefGroup = 24AF21682CBC354D009A1B6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24AF21662CBC354D009A1B6F /* appCalculadoraFraccionYRomano */,
+				24AF21812CBC354E009A1B6F /* appCalculadoraFraccionYRomanoTests */,
+				24AF218B2CBC354E009A1B6F /* appCalculadoraFraccionYRomanoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24AF21652CBC354D009A1B6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24AF21772CBC354E009A1B6F /* Assets.xcassets in Resources */,
+				24AF217A2CBC354E009A1B6F /* Base in Resources */,
+				24AF21752CBC354D009A1B6F /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24AF21802CBC354E009A1B6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24AF218A2CBC354E009A1B6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24AF21632CBC354D009A1B6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				245E50342CC2ACD20020F0AF /* SecondViewController.m in Sources */,
+				24AF21722CBC354D009A1B6F /* FirstViewController.m in Sources */,
+				24AF216C2CBC354D009A1B6F /* AppDelegate.m in Sources */,
+				24AF21A12CBC4419009A1B6F /* Racionales.m in Sources */,
+				24AF217D2CBC354E009A1B6F /* main.m in Sources */,
+				24AF216F2CBC354D009A1B6F /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24AF217E2CBC354E009A1B6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24AF21872CBC354E009A1B6F /* appCalculadoraFraccionYRomanoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24AF21882CBC354E009A1B6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24AF21912CBC354E009A1B6F /* appCalculadoraFraccionYRomanoUITests.m in Sources */,
+				24AF21932CBC354E009A1B6F /* appCalculadoraFraccionYRomanoUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24AF21842CBC354E009A1B6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24AF21662CBC354D009A1B6F /* appCalculadoraFraccionYRomano */;
+			targetProxy = 24AF21832CBC354E009A1B6F /* PBXContainerItemProxy */;
+		};
+		24AF218E2CBC354E009A1B6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24AF21662CBC354D009A1B6F /* appCalculadoraFraccionYRomano */;
+			targetProxy = 24AF218D2CBC354E009A1B6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24AF21732CBC354D009A1B6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24AF21742CBC354D009A1B6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24AF21782CBC354E009A1B6F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24AF21792CBC354E009A1B6F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24AF21942CBC354E009A1B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24AF21952CBC354E009A1B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24AF21972CBC354E009A1B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Y6W3Q4CN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = appCalculadoraFraccionYRomano/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Castro.appCalculadoraFraccionYRomano;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24AF21982CBC354E009A1B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Y6W3Q4CN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = appCalculadoraFraccionYRomano/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Castro.appCalculadoraFraccionYRomano;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24AF219A2CBC354E009A1B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Y6W3Q4CN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Castro.appCalculadoraFraccionYRomanoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appCalculadoraFraccionYRomano.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/appCalculadoraFraccionYRomano";
+			};
+			name = Debug;
+		};
+		24AF219B2CBC354E009A1B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Y6W3Q4CN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Castro.appCalculadoraFraccionYRomanoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appCalculadoraFraccionYRomano.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/appCalculadoraFraccionYRomano";
+			};
+			name = Release;
+		};
+		24AF219D2CBC354E009A1B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Y6W3Q4CN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Castro.appCalculadoraFraccionYRomanoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = appCalculadoraFraccionYRomano;
+			};
+			name = Debug;
+		};
+		24AF219E2CBC354E009A1B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Y6W3Q4CN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Castro.appCalculadoraFraccionYRomanoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = appCalculadoraFraccionYRomano;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24AF21622CBC354D009A1B6F /* Build configuration list for PBXProject "appCalculadoraFraccionYRomano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24AF21942CBC354E009A1B6F /* Debug */,
+				24AF21952CBC354E009A1B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24AF21962CBC354E009A1B6F /* Build configuration list for PBXNativeTarget "appCalculadoraFraccionYRomano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24AF21972CBC354E009A1B6F /* Debug */,
+				24AF21982CBC354E009A1B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24AF21992CBC354E009A1B6F /* Build configuration list for PBXNativeTarget "appCalculadoraFraccionYRomanoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24AF219A2CBC354E009A1B6F /* Debug */,
+				24AF219B2CBC354E009A1B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24AF219C2CBC354E009A1B6F /* Build configuration list for PBXNativeTarget "appCalculadoraFraccionYRomanoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24AF219D2CBC354E009A1B6F /* Debug */,
+				24AF219E2CBC354E009A1B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24AF215F2CBC354D009A1B6F /* Project object */;
+}
